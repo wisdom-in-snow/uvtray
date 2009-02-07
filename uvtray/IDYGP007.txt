@@ -1,0 +1,220 @@
+0001 014015 94120 Darwin              06 10 2008  UV Alert from  8.40 to 16.30  Max: 15
+0002 086282 94866 Melbourne           06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0003 066062 94768 Sydney              06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0004 094029 94970 Hobart              06 10 2008  UV Alert from  9.30 to 14.30  Max:  5
+0005 009225 94608 Perth               06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0006 023090 94675 Adelaide            06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0007 015590 94326 Alice Springs       06 10 2008  UV Alert from  8.40 to 16.00  Max: 12
+0008 040842 94578 Brisbane            06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0009 070014 94926 Canberra            06 10 2008  UV Alert from  8.50 to 14.50  Max:  7
+0010 076031 94693 Mildura             06 10 2008  UV Alert from  9.20 to 15.20  Max:  7
+0011 003003 94203 Broome              06 10 2008  UV Alert from  7.50 to 15.20  Max: 13
+0012 032040 94294 Townsville          06 10 2008  UV Alert from  8.10 to 15.50  Max: 15
+0013 029127 94332 Mt Isa              06 10 2008  UV Alert from  8.40 to 16.20  Max: 13
+0014 009741 94802 Albany              06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0015 056238 95773 Armidale            06 10 2008  UV Alert from  8.10 to 15.20  Max: 10
+0016 069134 94941 Batemans Bay        06 10 2008  UV Alert from  8.50 to 14.50  Max:  7
+0017 063291 94729 Bathurst            06 10 2008  UV Alert from  8.40 to 15.00  Max:  7
+0018 048245 94703 Bourke              06 10 2008  UV Alert from  8.40 to 15.20  Max:  9
+0019 068102 94747 Bowral              06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0020 047048 94691 Broken Hill         06 10 2008  UV Alert from  9.10 to 15.40  Max:  7
+0021 058009 94595 Cape Byron          06 10 2008  UV Alert from  8.00 to 15.10  Max: 11
+0022 061260 95771 Cessnock            06 10 2008  UV Alert from  8.30 to 14.50  Max:  8
+0023 048027 94711 Cobar               06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0024 059040 94791 Coffs Harbour       06 10 2008  UV Alert from  8.10 to 15.10  Max: 10
+0025 070217 94921 Cooma               06 10 2008  UV Alert from  8.50 to 14.50  Max:  7
+0026 074258 95869 Deniliquin          06 10 2008  UV Alert from  9.10 to 15.10  Max:  7
+0027 065070 95719 Dubbo               06 10 2008  UV Alert from  8.40 to 15.10  Max:  8
+0028 061087 94777 Gosford             06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0029 070330 95716 Goulburn            06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0030 058130 94571 Grafton             06 10 2008  UV Alert from  8.10 to 15.10  Max: 10
+0031 075041 95704 Griffith            06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0032 056242 95541 Inverell            06 10 2008  UV Alert from  8.10 to 15.20  Max: 10
+0033 063039 94744 Katoomba            06 10 2008  UV Alert from  8.40 to 15.00  Max:  7
+0034 059017 94788 Kempsey             06 10 2008  UV Alert from  8.10 to 15.00  Max:  9
+0035 058214 94572 Lismore             06 10 2008  UV Alert from  8.00 to 15.10  Max: 11
+0036 061388 95775 Maitland NSW        06 10 2008  UV Alert from  8.20 to 14.50  Max:  8
+0037 053115 95527 Moree               06 10 2008  UV Alert from  8.20 to 15.20  Max: 10
+0038 062101 94727 Mudgee              06 10 2008  UV Alert from  8.40 to 15.10  Max:  8
+0039 061055 94774 Newcastle           06 10 2008  UV Alert from  8.30 to 14.50  Max:  8
+0040 068072 94750 Nowra               06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0041 063303 95726 Orange              06 10 2008  UV Alert from  8.40 to 15.10  Max:  7
+0042 065026 94717 Parkes              06 10 2008  UV Alert from  8.40 to 15.10  Max:  7
+0043 060139 94786 Port Macquarie      06 10 2008  UV Alert from  8.10 to 15.00  Max:  9
+0044 061363 95758 Scone               06 10 2008  UV Alert from  8.20 to 15.10  Max:  9
+0045 055325 95762 Tamworth            06 10 2008  UV Alert from  8.20 to 15.10  Max:  9
+0046 060141 95784 Taree               06 10 2008  UV Alert from  8.20 to 15.00  Max:  9
+0047 072150 94910 Wagga Wagga         06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0048 068241 95748 Wollongong          06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0049 072161 95916 Cabramurra          06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0050 071072 94915 Perisher Valley     06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0051 071041 95908 Thredbo             06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0052 085279 94912 Bairnsdale          06 10 2008  UV Alert from  9.10 to 14.50  Max:  6
+0053 089002 94852 Ballarat            06 10 2008  UV Alert from  9.20 to 15.10  Max:  6
+0054 081123 94855 Bendigo             06 10 2008  UV Alert from  9.10 to 15.10  Max:  7
+0055 090035 95845 Colac               06 10 2008  UV Alert from  9.20 to 15.10  Max:  6
+0056 080015 94861 Echuca              06 10 2008  UV Alert from  9.10 to 15.10  Max:  7
+0057 087163 94857 Geelong             06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0058 090173 94829 Hamilton            06 10 2008  UV Alert from  9.20 to 15.10  Max:  6
+0059 079100 95839 Horsham             06 10 2008  UV Alert from  9.20 to 15.20  Max:  7
+0060 085280 94891 LaTrobe Valley      06 10 2008  UV Alert from  9.10 to 14.50  Max:  6
+0061 086371 94871 Mornington          06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0062 084030 94917 Orbost              06 10 2008  UV Alert from  9.00 to 14.50  Max:  6
+0063 085072 94907 Sale                06 10 2008  UV Alert from  9.10 to 14.50  Max:  6
+0064 088109 94874 Seymour             06 10 2008  UV Alert from  9.10 to 15.00  Max:  6
+0065 081125 94875 Shepparton          06 10 2008  UV Alert from  9.10 to 15.00  Max:  7
+0066 077094 94843 Swan Hill           06 10 2008  UV Alert from  9.10 to 15.10  Max:  7
+0067 082138 94889 Wangaratta          06 10 2008  UV Alert from  9.10 to 15.00  Max:  7
+0068 090186 94837 Warrnambool         06 10 2008  UV Alert from  9.30 to 15.10  Max:  6
+0069 072160 95896 Wodonga             06 10 2008  UV Alert from  9.00 to 15.00  Max:  7
+0070 086127 95881 Wonthaggi           06 10 2008  UV Alert from  9.20 to 14.50  Max:  6
+0071 086383 94864 Yarra Glen          06 10 2008  UV Alert from  9.10 to 15.00  Max:  6
+0072 083024 94894 Mount Buller        06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0073 083085 94906 Mount Hotham        06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0074 040004 94568 Ipswich             06 10 2008  UV Alert from  8.00 to 15.20  Max: 11
+0075 033002 95295 Ayr-Home Hill       06 10 2008  UV Alert from  8.10 to 15.50  Max: 14
+0076 039089 94376 Biloela             06 10 2008  UV Alert from  8.00 to 15.30  Max: 12
+0077 033257 94366 Bowen               06 10 2008  UV Alert from  8.10 to 15.40  Max: 14
+0078 039128 94387 Bundaberg           06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0079 031011 94287 Cairns              06 10 2008  UV Alert from  8.10 to 16.00  Max: 15
+0080 044021 94510 Charleville         06 10 2008  UV Alert from  8.20 to 15.40  Max: 12
+0081 034084 94356 Charters Towers     06 10 2008  UV Alert from  8.10 to 15.50  Max: 14
+0082 035019 94359 Clermont            06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0083 040764 94580 Gold Coast          06 10 2008  UV Alert from  7.50 to 15.10  Max: 11
+0084 041522 94542 Dalby               06 10 2008  UV Alert from  8.00 to 15.20  Max: 11
+0085 035264 94363 Emerald             06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0086 039326 94381 Gladstone           06 10 2008  UV Alert from  8.00 to 15.20  Max: 12
+0087 041521 94530 Goondiwindi         06 10 2008  UV Alert from  8.10 to 15.20  Max: 11
+0088 040093 94566 Gympie              06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0089 040405 95565 Hervey Bay          06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0090 032078 95291 Ingham              06 10 2008  UV Alert from  8.10 to 15.50  Max: 15
+0091 032025 94291 Innisfail           06 10 2008  UV Alert from  8.10 to 16.00  Max: 15
+0092 040922 94549 Kingaroy            06 10 2008  UV Alert from  8.00 to 15.20  Max: 12
+0093 036031 94346 Longreach           06 10 2008  UV Alert from  8.30 to 15.50  Max: 12
+0094 033045 95367 Mackay              06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0095 031210 95286 Mareeba             06 10 2008  UV Alert from  8.10 to 16.00  Max: 16
+0096 040126 94567 Maryborough         06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0097 034038 94358 Moranbah            06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0098 039083 94374 Rockhampton         06 10 2008  UV Alert from  8.00 to 15.30  Max: 13
+0099 043091 94515 Roma                06 10 2008  UV Alert from  8.10 to 15.40  Max: 12
+0100 040908 94570 Sunshine Coast      06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
+0101 041529 95551 Toowoomba           06 10 2008  UV Alert from  8.00 to 15.20  Max: 12
+0102 041525 94555 Warwick             06 10 2008  UV Alert from  8.00 to 15.20  Max: 11
+0103 037051 94339 Winton              06 10 2008  UV Alert from  8.30 to 16.00  Max: 12
+0104 033294 94373 Yeppoon             06 10 2008  UV Alert from  8.00 to 15.30  Max: 13
+0105 091009 94958 Burnie              06 10 2008  UV Alert from  9.20 to 14.40  Max:  5
+0106 091126 95960 Devonport           06 10 2008  UV Alert from  9.20 to 14.40  Max:  5
+0107 091237 94969 Launceston          06 10 2008  UV Alert from  9.20 to 14.40  Max:  5
+0108 092120 95981 St Helens           06 10 2008  UV Alert from  9.20 to 14.30  Max:  5
+0109 097072 94956 Strahan             06 10 2008  UV Alert from  9.40 to 14.40  Max:  5
+0110 092038 94981 Swansea             06 10 2008  UV Alert from  9.20 to 14.30  Max:  5
+0111 009510 94616 Bridgetown          06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0112 009965 94604 Bunbury             06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0113 009603 95611 Busselton           06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0114 006011 94300 Carnarvon           06 10 2008  UV Alert from  8.40 to 15.50  Max: 11
+0115 009994 95621 Collie              06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0116 008039 94619 Dalwallinu          06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0117 006044 94402 Denham              06 10 2008  UV Alert from  8.40 to 15.40  Max: 10
+0118 003032 95205 Derby               06 10 2008  UV Alert from  7.50 to 15.20  Max: 13
+0119 009789 94638 Esperance           06 10 2008  UV Alert from  8.30 to 14.50  Max:  7
+0120 011003 94647 Eucla               06 10 2008  UV Alert from  8.00 to 14.20  Max:  8
+0121 005007 94302 Exmouth             06 10 2008  UV Alert from  8.30 to 15.50  Max: 12
+0122 008051 94403 Geraldton           06 10 2008  UV Alert from  8.50 to 15.30  Max:  9
+0123 002012 94212 Halls Creek         06 10 2008  UV Alert from  7.30 to 15.10  Max: 13
+0124 008251 94401 Kalbarri            06 10 2008  UV Alert from  8.50 to 15.40  Max:  9
+0125 012038 94637 Kalgoorlie          06 10 2008  UV Alert from  8.20 to 15.00  Max:  8
+0126 001019 94100 Kalumburu           06 10 2008  UV Alert from  7.30 to 15.10  Max: 14
+0127 004083 95307 Karratha            06 10 2008  UV Alert from  8.20 to 15.40  Max: 13
+0128 010579 94629 Katanning           06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0129 002056 94216 Kununurra           06 10 2008  UV Alert from  7.20 to 15.00  Max: 14
+0130 010592 94635 Lake Grace          06 10 2008  UV Alert from  8.40 to 15.10  Max:  7
+0131 012314 95448 Leinster            06 10 2008  UV Alert from  8.20 to 15.10  Max:  9
+0132 009977 94605 Mandurah            06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0133 009573 94617 Manjimup            06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0134 005026 94313 Munjina             06 10 2008  UV Alert from  8.10 to 15.40  Max: 12
+0135 004020 94315 Marble Bar          06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0136 009746 95641 Margaret River      06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0137 007045 94430 Meekatharra         06 10 2008  UV Alert from  8.20 to 15.20  Max: 10
+0138 010092 95624 Merredin            06 10 2008  UV Alert from  8.40 to 15.10  Max:  8
+0139 008091 00000 Moora               06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0140 008296 94417 Morawa              06 10 2008  UV Alert from  8.50 to 15.20  Max:  9
+0141 010614 94627 Narrogin            06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0142 007176 94317 Newman              06 10 2008  UV Alert from  8.10 to 15.30  Max: 12
+0143 010111 94621 Northam             06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0144 005016 94305 Onslow              06 10 2008  UV Alert from  8.20 to 15.50  Max: 12
+0145 005069 94314 Pannawonica         06 10 2008  UV Alert from  8.20 to 15.50  Max: 12
+0146 007185 94316 Paraburdoo          06 10 2008  UV Alert from  8.20 to 15.40  Max: 12
+0147 004032 94312 Port Hedland        06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0148 010633 94636 Ravensthorpe        06 10 2008  UV Alert from  8.40 to 15.00  Max:  7
+0149 004035 94309 Roebourne           06 10 2008  UV Alert from  8.10 to 15.40  Max: 13
+0150 005072 95316 Tom Price           06 10 2008  UV Alert from  8.10 to 15.40  Max: 12
+0151 014507 94149 Alyangula           06 10 2008  UV Alert from  8.20 to 16.00  Max: 14
+0152 014723 94152 Borroloola          06 10 2008  UV Alert from  8.20 to 16.00  Max: 13
+0153 014198 94137 Jabiru              06 10 2008  UV Alert from  8.40 to 16.20  Max: 15
+0154 014903 94132 Katherine           06 10 2008  UV Alert from  8.40 to 16.20  Max: 14
+0155 014508 94150 Nhulunbuy-Gove      06 10 2008  UV Alert from  8.20 to 16.00  Max: 15
+0156 015135 94238 Tennant Creek       06 10 2008  UV Alert from  8.40 to 16.10  Max: 13
+0157 015635 94462 Yulara              06 10 2008  UV Alert from  9.00 to 16.10  Max: 11
+0158 072160 95896 Albury              06 10 2008  UV Alert from  9.00 to 15.00  Max:  7
+0159 018012 94653 Ceduna              06 10 2008  UV Alert from  9.10 to 15.40  Max:  7
+0160 021131 95667 Clare               06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0161 016090 95458 Coober Pedy         06 10 2008  UV Alert from  9.00 to 15.40  Max:  9
+0162 026091 94817 Coonawarra          06 10 2008  UV Alert from  9.00 to 14.50  Max:  6
+0163 025507 94816 Keith               06 10 2008  UV Alert from  9.00 to 14.50  Max:  7
+0164 022841 95807 Kingscote           06 10 2008  UV Alert from  9.10 to 15.10  Max:  7
+0165 017110 94674 Leigh Creek         06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0166 022008 94665 Maitland SA         06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0167 026021 94821 Mount Gambier       06 10 2008  UV Alert from  9.00 to 14.50  Max:  6
+0168 024521 95812 Murray Bridge       06 10 2008  UV Alert from  9.00 to 15.00  Max:  7
+0169 026099 94820 Naracoorte          06 10 2008  UV Alert from  9.00 to 14.50  Max:  6
+0170 023373 94681 Nuriootpa           06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0171 021043 94669 Port Pirie          06 10 2008  UV Alert from  8.50 to 15.10  Max:  7
+0172 018201 95666 Port Augusta        06 10 2008  UV Alert from  8.50 to 15.20  Max:  7
+0173 018192 95661 Port Lincoln        06 10 2008  UV Alert from  9.10 to 15.20  Max:  7
+0174 024048 95687 Renmark             06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0175 016096 95658 Roxby Downs         06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0176 023804 95811 Victor Harbor       06 10 2008  UV Alert from  9.00 to 15.10  Max:  7
+0177 018120 95664 Whyalla             06 10 2008  UV Alert from  9.00 to 15.20  Max:  7
+0178 016001 94659 Woomera             06 10 2008  UV Alert from  8.50 to 15.20  Max:  8
+0179 018083 95654 Wudinna             06 10 2008  UV Alert from  9.10 to 15.20  Max:  7
+0180 002064 94217 Argyle              06 10 2008  UV Alert from  7.20 to 15.00  Max: 14
+0181 003093 94206 Fitzroy Crossing    06 10 2008  UV Alert from  7.40 to 15.10  Max: 13
+0182 001006 95214 Wyndham             06 10 2008  UV Alert from  7.20 to 15.10  Max: 14
+0183 036007 94350 Barcaldine          06 10 2008  UV Alert from  8.20 to 15.50  Max: 12
+0184 029004 94259 Burketown           06 10 2008  UV Alert from  8.40 to 16.20  Max: 14
+0185 029141 94335 Cloncurry           06 10 2008  UV Alert from  8.40 to 16.10  Max: 13
+0186 031209 95283 Cooktown            06 10 2008  UV Alert from  8.10 to 16.00  Max: 15
+0187 040717 94592 Coolangatta         06 10 2008  UV Alert from  7.50 to 15.10  Max: 11
+0188 029063 94266 Normanton           06 10 2008  UV Alert from  8.30 to 16.20  Max: 15
+0189 030161 94341 Richmond            06 10 2008  UV Alert from  8.30 to 16.00  Max: 13
+0190 027058 94174 Thursday Island     06 10 2008  UV Alert from  8.20 to 16.10  Max: 15
+0191 200790 96995 Christmas Island    06 10 2008  UV Alert from  7.50 to 15.40  Max: 16
+0192 200284 96996 Cocos Islands       06 10 2008  UV Alert from  7.20 to 15.10  Max: 15
+0193 200839 94995 Lord Howe Island    06 10 2008  UV Alert from  7.50 to 14.30  Max:  9
+0194 200288 94996 Norfolk Island      06 10 2008  UV Alert from  8.10 to 15.10  Max: 10
+0195 038003 94333 Boulia              06 10 2008  UV Alert from  8.50 to 16.10  Max: 12
+0196 030022 94343 Hughenden           06 10 2008  UV Alert from  8.20 to 16.00  Max: 14
+0197 027045 94170 Weipa               06 10 2008  UV Alert from  8.30 to 16.10  Max: 15
+0198 060013 95778 Forster             06 10 2008  UV Alert from  8.20 to 14.50  Max:  9
+0199 056243 94588 Glen Innes          06 10 2008  UV Alert from  8.10 to 15.20  Max: 11
+0200 049000 95697 Ivanhoe             06 10 2008  UV Alert from  9.10 to 15.20  Max:  7
+0201 063226 94741 Lithgow             06 10 2008  UV Alert from  8.40 to 15.00  Max:  7
+0202 069147 95929 Merimbula           06 10 2008  UV Alert from  8.50 to 14.40  Max:  6
+0203 054038 95734 Narrabri            06 10 2008  UV Alert from  8.20 to 15.20  Max: 10
+0204 061397 94733 Singleton           06 10 2008  UV Alert from  8.30 to 15.00  Max:  8
+0205 063077 95744 Springwood          06 10 2008  UV Alert from  8.40 to 14.50  Max:  7
+0206 070339 94925 Tuggeranong         06 10 2008  UV Alert from  8.50 to 14.50  Max:  7
+0207 073138 94712 Young               06 10 2008  UV Alert from  8.50 to 15.00  Max:  7
+0208 014142 94119 Pirlangimpi         06 10 2008  UV Alert from  8.40 to 16.30  Max: 16
+0209 014400 94142 Maningrida          06 10 2008  UV Alert from  8.30 to 16.10  Max: 15
+0210 014948 95111 Wadeye              06 10 2008  UV Alert from  8.50 to 16.30  Max: 14
+0211 014829 94231 Lajamanu            06 10 2008  UV Alert from  8.50 to 16.20  Max: 13
+0212 015528 94324 Yuendumu            06 10 2008  UV Alert from  8.50 to 16.10  Max: 12
+0213 086371 94871 Frankston           06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0214 087031 94865 Laverton            06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0215 086372 94872 Mount Dandenong     06 10 2008  UV Alert from  9.10 to 15.00  Max:  6
+0216 086104 95867 Scoresby            06 10 2008  UV Alert from  9.10 to 15.00  Max:  6
+0217 086282 95866 Tullamarine         06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0218 086068 95874 Watsonia            06 10 2008  UV Alert from  9.20 to 15.00  Max:  6
+0219 040004 94568 Amberley            06 10 2008  UV Alert from  8.00 to 15.20  Max: 11
+0220 040908 94570 Tewantin            06 10 2008  UV Alert from  7.50 to 15.20  Max: 12
