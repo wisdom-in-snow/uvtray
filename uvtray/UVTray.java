@@ -11,8 +11,6 @@ import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 import javax.swing.UIManager;
-import javax.swing.event.ListDataEvent;
-import javax.swing.event.ListDataListener;
 
 /**
  *
@@ -48,14 +46,14 @@ public class UVTray {
         Image image = uvdata.getCurrentImage();
         uvframe.setDataText(alert);
         uvframe.setIconImage(image);
-        trayIcon.setToolTip(alert);
+        trayIcon.setToolTip(alert.replaceFirst(", ", "\n  "));
         trayIcon.setImage(image);
     }
    
     static void changeLocation() {
         String alert = uvdata.getCurrentAlert();
         uvframe.setDataText(alert);
-        trayIcon.setToolTip(alert);
+        trayIcon.setToolTip(alert.replaceFirst(", ", "\n  "));
         trayIcon.setImage(uvdata.getCurrentImage());
         uvdata.setDefaultLocation(uvdata.getCurrentLocation());
     }

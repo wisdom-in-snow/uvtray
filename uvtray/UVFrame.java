@@ -7,7 +7,6 @@
 package uvtray;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 /**
  *
@@ -89,8 +88,8 @@ public class UVFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, dataPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(dataPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(dataLabel, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 332, Short.MAX_VALUE)
-                    .addComponent(dataComboBox, javax.swing.GroupLayout.Alignment.LEADING, 0, 332, Short.MAX_VALUE))
+                    .addComponent(dataLabel, javax.swing.GroupLayout.Alignment.LEADING, 332,332,332)//javax.swing.GroupLayout.DEFAULT_SIZE, 332, Short.MAX_VALUE)
+                    .addComponent(dataComboBox, javax.swing.GroupLayout.Alignment.LEADING, 0, 332, 332))//Short.MAX_VALUE))
                 .addContainerGap())
         );
         dataPanelLayout.setVerticalGroup(
