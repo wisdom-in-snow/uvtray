@@ -10,11 +10,12 @@ import java.awt.Toolkit;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.prefs.Preferences;
 import javax.swing.DefaultComboBoxModel;
-import javax.swing.event.ListDataEvent;
-import javax.swing.event.ListDataListener;
 
 /**
  *
@@ -25,7 +26,10 @@ public class UVData extends DefaultComboBoxModel {
     private String getLocation(Object data)
     {
         try {
-            return (data.toString().substring(18, 38).trim());
+            return (data.toString()
+                    .split(": ")[0] // remove UV data
+//                    .replaceFirst(".*, ", "") // remove state
+                    .trim());
         } catch (Exception e) {
             return "Unknown";
         }
@@ -40,57 +44,78 @@ public class UVData extends DefaultComboBoxModel {
     {
         String data = "Error getting UV data!";
         try {
-            data = super.getSelectedItem().toString();
-            data = getLocation(data) + ": " + data.substring(50).trim();
+            data = super.getSelectedItem().toString().split(", ",2)[1];
+            //data = getLocation(data) + ": " + data.substring(50).trim();
         } catch (Exception e) { /* nada */ }
         return data;
     }
-    
+
+    static final Map<String , String> images = new HashMap<String , String>() {{
+        put("Low", "low.png");
+        put("Moderate", "moderate.png");
+        put("High", "high.png");
+        put("Very High", "veryhigh.png");
+        put("Extreme", "extreme.png");
+    }};
+
     public Image getCurrentImage()
     {
-        String level;
         try {
-            level = super.getSelectedItem().toString().substring(85).trim();
-            int max = Integer.parseInt(level);
-            
-            if (max <= 2) {
-                level = "low";
-            } else if (max <= 5) {
-                level = "moderate";
-            } else if (max <= 7) {
-                level = "high";
-            } else if (max <= 11) {
-                level = "veryhigh";
-            } else {
-                level = "extreme";
-            }
+            String image = images.get(super.getSelectedItem().toString()
+                                      .split("[\\[\\]]")[1]);
+            URL imgURL = UVTray.class.getResource(image);
+            return Toolkit.getDefaultToolkit().getImage(imgURL);
         } catch (Exception e) {
-            level = "dunno";
+            URL imgURL = UVTray.class.getResource("dunno.png");
+            return Toolkit.getDefaultToolkit().getImage(imgURL);
         }
-        URL imgURL = UVTray.class.getResource(level + ".png");
-        return Toolkit.getDefaultToolkit().getImage(imgURL);
     }
 
     public void downloadData() throws Exception {
-        URL url = new URL("ftp://ftp2.bom.gov.au/anon/gen/fwo/IDYGP007.txt");
-//        URL url = UVTray.class.getResource("IDYGP007.txt");
-        URLConnection urlc = url.openConnection();
-        InputStream is = urlc.getInputStream();
-        Scanner scanner = new Scanner(is);
+
+        String[] states = {"NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"};
+        //String bomurl = "ftp://ftp2.bom.gov.au/anon/gen/fwo/IDYGP007.XXX.txt";
+        String bomurl = "ftp2.bom.gov.au_anon_gen_fwo_IDYGP007.XXX.txt";
         String line;
-        
+
+        LinkedList locations = new LinkedList();
+
+        for (int i = 0; i < 7; i++) {
+
+            //URL url = new URL(bomurl.replaceFirst("XXX", states[i]));
+            URL url = UVTray.class.getResource(bomurl.replaceFirst("XXX", states[i]));
+            URLConnection urlc = url.openConnection();
+            InputStream is = urlc.getInputStream();
+            Scanner scanner = new Scanner(is);
+
+            while (scanner.hasNextLine()) {
+                line = scanner.nextLine();
+                if (line.length() > 100) {
+                    line = states[i] + ", " +
+                           line.substring(18,37).trim() + ": " +
+                           line.substring(50,84).trim() + ", " +
+                           line.substring(85).trim();
+                    locations.add(line);
+                }
+            }
+        }
+
         // get default location
         String defaultLocation = Preferences.userNodeForPackage(UVData.class)
                 .get("defaultLocation", "unknown");
         
         // update location list
         removeAllElements();
-        addElement("Select a location...");
-        while (scanner.hasNextLine()) {
-            line = scanner.nextLine();
-            addElement(line);
-            if (getLocation(line).equals(defaultLocation))
-                setSelectedItem(line);
+        if (! locations.isEmpty())
+        {
+            addElement("Select a location...");
+            while (! locations.isEmpty())
+            {
+                line = locations.removeFirst().toString();
+                addElement(line);
+                if (getLocation(line).equals(defaultLocation))
+                    setSelectedItem(line);
+            }
         }
     }
 
