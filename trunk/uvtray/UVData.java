@@ -74,27 +74,31 @@ public class UVData extends DefaultComboBoxModel {
     public void downloadData() throws Exception {
 
         String[] states = {"NSW", "NT", "QLD", "SA", "TAS", "VIC", "WA"};
-        //String bomurl = "ftp://ftp2.bom.gov.au/anon/gen/fwo/IDYGP007.XXX.txt";
-        String bomurl = "ftp2.bom.gov.au_anon_gen_fwo_IDYGP007.XXX.txt";
+        String bomurl = "ftp://ftp.bom.gov.au/anon/gen/fwo/IDYGP007.XXX.txt";
+        //String bomurl = "ftp2.bom.gov.au_anon_gen_fwo_IDYGP007.XXX.txt";
         String line;
 
         LinkedList locations = new LinkedList();
 
         for (int i = 0; i < 7; i++) {
 
-            //URL url = new URL(bomurl.replaceFirst("XXX", states[i]));
-            URL url = UVTray.class.getResource(bomurl.replaceFirst("XXX", states[i]));
+            String urlstring = bomurl.replaceFirst("XXX", states[i]);
+            System.out.println("Trying " + urlstring);
+            URL url = new URL(urlstring);
+            //URL url = UVTray.class.getResource(urlstring);
             URLConnection urlc = url.openConnection();
             InputStream is = urlc.getInputStream();
             Scanner scanner = new Scanner(is);
 
             while (scanner.hasNextLine()) {
                 line = scanner.nextLine();
+                System.out.println("  got: " + line);
                 if (line.length() > 100) {
                     line = states[i] + ", " +
                            line.substring(18,37).trim() + ": " +
                            line.substring(50,84).trim() + ", " +
                            line.substring(85).trim();
+                    System.out.println("  use: " + line);
                     locations.add(line);
                 }
             }
